@@ -38,7 +38,7 @@ public class ShowColors2JFrame extends JFrame
 
                // set default color, if no color is returned 
                if (color == null)
-                  color = Color.LIGHT_GRAY;
+                  color = Color.LIGHT_red;
 
                // change content pane's background color
                colorJPanel.setBackground(color);
@@ -49,7 +49,7 @@ public class ShowColors2JFrame extends JFrame
       add(colorJPanel, BorderLayout.CENTER); 
       add(changeColorJButton, BorderLayout.SOUTH);
 
-      setSize(400, 130);
+      setSize(500, 130);
       setVisible(true);
    } // end ShowColor2JFrame constructor
 } // end class ShowColors2JFrame
